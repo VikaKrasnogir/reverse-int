@@ -2,8 +2,6 @@ module.exports = function reverse (n) {
   let num = n;
     // присваеваем num остаток 
     num = num % 10;
-
-    
     if (n < 0 && num == -0) {
         // сложив число со строкой, получаем строку
         n = n + "";
